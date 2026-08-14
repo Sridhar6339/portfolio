@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SRIDHAR — Web Developer, Fresher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Signature element: the track & travelling train -->
+  <nav class="track" id="track" aria-label="Section navigation">
+    <div class="track__rail"></div>
+    <div class="track__train" id="train">
+      <div class="train-smoke"></div>
+      <div class="train-smoke"></div>
+      <div class="train-smoke"></div>
+      <svg viewBox="0 0 64 64" fill="none">
+        <rect x="8" y="26" width="40" height="18" rx="2" fill="#BB4430" stroke="#1C1B18" stroke-width="2"/>
+        <rect x="12" y="30" width="8" height="8" fill="#F3ECDA" stroke="#1C1B18" stroke-width="1.5"/>
+        <rect x="24" y="30" width="8" height="8" fill="#F3ECDA" stroke="#1C1B18" stroke-width="1.5"/>
+        <rect x="40" y="12" width="10" height="14" fill="#14213D" stroke="#1C1B18" stroke-width="2"/>
+        <circle cx="18" cy="48" r="5" fill="#1C1B18"/>
+        <circle cx="38" cy="48" r="5" fill="#1C1B18"/>
+        <rect x="4" y="44" width="56" height="3" fill="#1C1B18"/>
+      </svg>
+    </div>
+    <!-- stops injected by JS -->
+  </nav>
+
+  <div class="content-shell">
+
+    <!-- HERO: BOARDING PASS -->
+    <header class="hero" id="hero">
+      <div class="ticket">
+        <div class="ticket__top">
+          <span class="eyebrow">SENGOTTAI EXPRESS · DEPARTING TODAY · FROM ERODE</span>
+          <span class="ticket__no">TICKET NO. 19403130</span>
+        </div>
+        <div class="ticket__body">
+          <h1 class="ticket__name">SRIDHAR T</h1>
+          <p class="ticket__role">Web Developer & React Developer — fresh off the platform</p>
+
+          <div class="ticket__route">
+            <div class="route-point">FROM<strong>Student</strong></div>
+            <div class="route-line"></div>
+            <div class="route-point">TO<strong>MERN Stack Developer</strong></div>
+          </div>
+
+          <div class="ticket__perf">
+            <div class="stub-field"><div class="label">PLATFORM</div><div class="value">01 · Frontend</div></div>
+            <div class="stub-field"><div class="label">CLASS</div><div class="value">Full Stack</div></div>
+            <div class="stub-field"><div class="label">SEAT</div><div class="value">Open Role</div></div>
+            <div class="stub-field"><div class="label">STATUS</div><div class="value">Available Now</div></div>
+          </div>
+
+          <div class="barcode" aria-hidden="true"></div>
+        </div>
+        <div class="ticket__actions">
+          <a class="btn btn--primary" href="mailto:srisanthosh6339@gmail.com">Email Me</a>
+          <a class="btn" href="https://github.com/sridhar6339" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="#" download>Download Resume</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section class="station" id="about">
+        <div class="station-inner reveal">
+          <span class="platform-sign">STATION 01 — ABOUT ME</span>
+          <h2>Now boarding.</h2>
+          <p class="lead" style="text-align: justify;">
+            To build a modern, responsive, and user-friendly portfolio website that showcases my skills, projects, and experience in Web Development and React.js. The objective is to create a professional digital presence using HTML, CSS, JavaScript, React.js, Bootstrap, and responsive design principles. The website will demonstrate my ability to develop reusable components, interactive user interfaces, dynamic content, and optimized web applications. It will also highlight my problem-solving abilities, creativity, and continuous learning while providing potential employers with a clear overview of my technical capabilities and projects.</p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="station station--navy" id="skills">
+        <div class="station-inner reveal">
+          <span class="platform-sign">STATION 02 — SKILLS ONBOARD</span>
+          <h2>What's in the carriages.</h2>
+          <p class="lead">Everything I've packed for the career trip, sorted by compartment.</p>
+
+          <div class="carriages">
+            <div class="carriage">
+              <div class="carriage__head"><span>COMPARTMENT A</span><span>FRONTEND</span></div>
+              <div class="carriage__windows">
+                <span class="window-tag">HTML5</span>
+                <span class="window-tag">CSS3</span>
+                <span class="window-tag">JavaScript (ES6+)</span>
+                <span class="window-tag">React</span>
+                <span class="window-tag">Responsive Design</span>
+              </div>
+            </div>
+            <div class="carriage">
+              <div class="carriage__head"><span>COMPARTMENT B</span><span>BACKEND</span></div>
+              <div class="carriage__windows">
+                <span class="window-tag">Node.js</span>
+                <span class="window-tag">Express</span>
+                <span class="window-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="carriage">
+              <div class="carriage__head"><span>COMPARTMENT C</span><span>TOOLS & WORKFLOW</span></div>
+              <div class="carriage__windows">
+                <span class="window-tag">Git & GitHub</span>
+                <span class="window-tag">VS Code</span>
+                <span class="window-tag">Figma</span>
+                <span class="window-tag">Vercel / Netlify</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="station" id="projects">
+        <div class="station-inner reveal">
+          <span class="platform-sign">STATION 03 — CARGO: PROJECTS</span>
+          <h2>What I've shipped so far.</h2>
+          <p class="lead">Three builds, three routes — replace with your own freight.</p>
+
+          <div class="cargo-list">
+            <article class="cargo">
+              <div class="cargo__index">CARGO 01</div>
+              <div class="cargo__body">
+                <h3 class="cargo__title">STARVIBE HOLIDAYS WEBSITE </h3>
+                <p class="cargo__desc">Starvibe Holidays is a travel website showcasing exciting destinations, customized tour packages, memorable experiences, and seamless travel planning for unforgettable journeys.</p>
+                <div class="cargo__stack">
+                  <span class="stack-chip">HTML</span>
+                  <span class="stack-chip">CSS</span>
+                  <span class="stack-chip">JavaScript</span>
+                  
+                </div>
+                <div class="cargo__links">
+                  <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener">Source Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="cargo">
+              <div class="cargo__index">CARGO 02</div>
+              <div class="cargo__body">
+                <h3 class="cargo__title">Kingsukh GuestHouse Website</h3>
+                <p class="cargo__desc">A responsive guest house website showcasing comfortable rooms, amenities, scenic attractions, services, and convenient online booking for travelers seeking a memorable stay.</p>
+                <div class="cargo__stack">
+                  <span class="stack-chip">HTML</span>
+                  <span class="stack-chip">CSS</span>
+                  <span class="stack-chip">JavaScript</span>
+                </div>
+                <div class="cargo__links">
+                  <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener">Source Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="cargo">
+              <div class="cargo__index">CARGO 03</div>
+              <div class="cargo__body">
+                <h3 class="cargo__title">Weatherly — Weather Dashboard</h3>
+                <p class="cargo__desc">A weather lookup dashboard consuming a public API, with saved cities, unit toggling, and a 5-day forecast view.</p>
+                <div class="cargo__stack">
+                  <span class="stack-chip">JavaScript</span>
+                  <span class="stack-chip">REST API</span>
+                  <span class="stack-chip">CSS Grid</span>
+                </div>
+                <div class="cargo__links">
+                  <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener">Source Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION / ROUTE MAP -->
+      <section class="station station--navy" id="education">
+        <div class="station-inner reveal">
+          <span class="platform-sign">STATION 04 — EDUCATION ROUTE MAP</span>
+          <h2>Stops along the way.</h2>
+          <div class="route-map">
+            <div class="route-stop">
+              <div class="when">2021 — 2024</div>
+              <div class="what">B.E, ELECTRONICS AND COMMUNICATION ENGINEERING</div>
+              <div class="where">Coimbatore Institute of Technology, Coimbatore<br>CGPA: 8.01
+            </div>
+            </div>
+            <div class="route-stop">
+              <div class="when">2018 - 2021</div>
+              <div class="what">Diploma in ECE</div>
+              <div class="where">Kongu Polytechnic College, Perundurai, Erode <br>Percentage : 94 %
+            </div>
+            </div>
+            <div class="route-stop">
+              <div class="when">2017 - 2018</div>
+              <div class="what">SSLC</div>
+              <div class="where">Government Boys Higher Secondary School, Komarapalayam<br>Percentage : 85.6 %
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT / FINAL DESTINATION -->
+      <section class="station" id="contact">
+        <div class="station-inner reveal">
+          <span class="platform-sign">FINAL DESTINATION</span>
+          <h2>Let's connect.</h2>
+          <p class="lead">If there's a seat open on your team, I'd like to Connect with a Team</p>
+
+          <div class="destination">
+            <div class="board">
+              <span>NEXT DEPARTURE: YOUR NEXT PROJECT</span>
+              <span>STATUS: ON TIME</span>
+            </div>
+            <div class="contact-grid">
+              <div class="contact-row">
+                <span class="label">EMAIL</span>
+                <a class="value" href="mailto:srisanthosh6339@gmail.com">srisanthosh6339@gmail.com</a>
+              </div>
+              <div class="contact-row">
+                <span class="label">PHONE</span>
+                <span class="value">+91 9080367628</span>
+              </div>
+              <div class="contact-row">
+                <span class="label">GITHUB</span>
+                <a class="value" href="https://github.com/sridhar6339" target="_blank" rel="noopener">github.com/sridhar6339</a>
+              </div>
+              <div class="contact-row">
+                <span class="label">LINKEDIN</span>
+                <a class="value" href="www.linkedin.com/in/sridhar-thangaraj-927595230" target="_blank" rel="noopener">linkedin.com/in/sridhar-thangaraj</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>ALL ABOARD SINCE 2026 · BUILT WITH HTML, CSS &amp; JS · NO TRAINS WERE HARMED
+        <br>Copyright © 2026 Sridhar. All rights reserved
+    </footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
